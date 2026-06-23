@@ -1,4 +1,8 @@
-# Lightweight ToF Obstacle Detection Array
+## Repository Note
+
+This repository is a cleaned public portfolio version of my PhD research codebase. It contains selected code structure, configuration examples, documentation and representative scripts for a VL53L1X time-of-flight sensor array used for near-360-degree robotic obstacle detection.
+
+Sensitive data, raw experimental logs, facility-specific information and unpublished research materials have been removed.# Lightweight ToF Obstacle Detection Array
 
 This repository documents a lightweight time-of-flight obstacle-perception system developed for robotic navigation under strict payload and power constraints.
 
