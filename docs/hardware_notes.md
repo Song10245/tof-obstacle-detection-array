@@ -6,7 +6,7 @@
 - Approximate near-360 degree field of view
 - BLE telemetry to host computer for real-time visualisation
 
-## Calibration TODOs
+## Calibration notes to document
 
 - document sensor angles
 - document mounting height
