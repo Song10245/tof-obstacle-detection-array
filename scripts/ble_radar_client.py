@@ -11,8 +11,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from bleak import BleakClient, BleakScanner
 
-DEVICE_NAME = os.getenv("TOF_DEVICE_NAME", "TODO_DEVICE_NAME")
-CHAR_UUID = os.getenv("TOF_CHAR_UUID", "TODO_CHARACTERISTIC_UUID")
+DEVICE_NAME = os.getenv("TOF_DEVICE_NAME", "VL53L1X_ToF_Array")
+CHAR_UUID = os.getenv("TOF_CHAR_UUID", "00000000-0000-0000-0000-000000000000") # Public-safe example values. Replace using environment variables for real hardware.
 NUM_SENSORS = 10
 
 fig = None
