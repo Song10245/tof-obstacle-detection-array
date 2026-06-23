@@ -2,7 +2,7 @@
   VL53L1X ToF array BLE firmware template
   Public-safe portfolio version.
 
-  Replace TODO sections with your board, BLE library and sensor-address logic.
+  Public-safe firmware template. Replace board-specific BLE and I2C address logic before hardware deployment.
 */
 
 #include <Wire.h>
@@ -14,17 +14,17 @@ void setup() {
   Serial.begin(115200);
   Wire.begin();
 
-  // TODO: Initialise BLE service and characteristic.
-  // TODO: Initialise each VL53L1X sensor and assign unique I2C addresses.
+  // Initialise BLE service and characteristic here.
+  // Initialise each VL53L1X sensor and assign unique I2C addresses here.
 }
 
 void loop() {
   for (int i = 0; i < NUM_SENSORS; ++i) {
-    // TODO: Replace with actual sensor read.
+    // Replace this placeholder with the VL53L1X distance read for sensor i.
     distances_mm[i] = 0;
   }
 
-  // TODO: Pack readings into a BLE packet.
+  // Pack readings into a BLE packet for wireless transmission.
   // Example CSV fallback for debugging:
   for (int i = 0; i < NUM_SENSORS; ++i) {
     Serial.print(distances_mm[i]);
