@@ -37,7 +37,7 @@ flowchart LR
 
 ## Results to add
 
-TODO:
+Representative public-safe outputs to include:
 
 - sensor ring photo
 - radar-chart screenshot
